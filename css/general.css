@@ -1813,12 +1813,12 @@ html.js_notmove{
   position: absolute;
   right: 0;
   bottom: -67px;
-  opacity: .3;
+  opacity: 1;
   background: url(../img/top/shop.jpg) no-repeat;
   background-size: cover;
   width: 300px;
   height: 250px;
-  z-index: -1;
+  z-index: 1;
 }
 .g_shop_tbl tr+tr{
   border-top: 1px solid rgb(99, 99, 99);
@@ -1872,6 +1872,7 @@ html.js_notmove{
     bottom: -4vw;
     right: -4vw;
     object-fit: cover;
+		z-index: -1;
   }
 }
 @media (max-width: 576px){
